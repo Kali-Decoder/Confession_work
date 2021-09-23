@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap');
+    .item
+    {
+        /* border: 1px solid black; */
+        border-radius:5px ;
+        display: flex;
+        flex-direction: row;
+    }
+    .sno
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        
+        width: 5rem;
+        height: 5rem;
+        margin-right: -40px;
+        border-radius:50% ;
+        z-index: 999;
+        background-color: #fff;
+        
+    }
+    .text 
+    {
+        
+        width: 100%;
+       padding: 10px 20px;
+       border-bottom-right-radius: 10px;
+       border-top-right-radius: 10px;
+    }
+    
